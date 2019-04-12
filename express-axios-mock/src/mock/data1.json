@@ -1,0 +1,21 @@
+{
+    "name": "yanyalong",
+    "title": "测试",
+    "data": [
+        {
+            "field_code": "111", "code": "initiatorDept", "errcode": 0, "errmsg": "ok","mextendData": null, "formId": "processVariable", "formName": "流程字段11", "id": "initiatorDept", "name": "stringsasassa", "system": true,
+            "type" : { "errcode" : 0,"errmsg" : "ok","id" : null, "code" : null,"name" : "string" },
+            "relationListType": ["equals","containsIgnoreCase"]
+        }, 
+        {
+            "field_code": "22", "code": "initiatorDept", "errcode": 0, "errmsg": "ok","mextendData": null, "formId": "processVariable", "formName": "流程字段11", "id": "asdada", "name": "发起人部门", "system": true,
+            "type" : { "errcode" : 0,"errmsg" : "ok","id" : null, "code" : null,"name" : "reference" },
+            "relationListType": ["contains","stringNotContains"]
+        }, 
+        {
+            "field_code" : "33", "errcode" : 0, "errmsg" : "ok","id" : "initiatorUserGroup", "code" : "initiatorUserGroup", "name" : "发起人所属用户组","system" : true,
+            "type" : {"errcode" : 0,"errmsg" : "ok",  "id" : null, "code" : null, "name" : "string"  }, "formId" : "processVariable","formName" : "流程字段","extendData" : null,
+            "relationListType": ["notEquals","containsIgnoreCase", "notContainsIgnoreCase"]
+        }
+    ]	
+}
