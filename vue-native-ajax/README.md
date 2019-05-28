@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+详细说明请看这里：https://www.cnblogs.com/yalong/p/10935567.html
